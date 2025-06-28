@@ -1,0 +1,9 @@
+version: "1"
+
+services:
+  app:
+    image: 'myapp:2.0'
+    container_name: myapp_compose
+    build: ./
+    ports:
+      - '8080:8080'
